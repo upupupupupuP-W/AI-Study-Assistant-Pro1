@@ -74,49 +74,49 @@ print("Hello AI Study Assistant Pro")
 
 
 
-# # DAY3
-# # 1.if+else
-# age=int(input("请输入年龄："))
-# if age>=18:
-#     print("你已经成年了")
-# else:
-#     print("还未成年，要好好长大。")
+#  DAY3
+# # # 1.if+else
+# # age=int(input("请输入年龄："))
+# # if age>=18:
+# #     print("你已经成年了")
+# # else:
+# #     print("还未成年，要好好长大。")
 
 
 
 
-# 2.理解elif
+# # 2.理解elif
+# # score=int(input("请输入成绩："))
+# # if score>=90:
+# #     print("A")
+# # elif score>=80:
+# #     print("B")
+# # elif score>=70:
+# #     print("C")
+# # elif score>=60:
+# #     print("D")
+# # else:
+# #     print("你不及格啦，要好好努力学习哦。")
+
+
+
+
+
+# # 3.项目练习
+# name=input("请输入姓名：")
 # score=int(input("请输入成绩："))
+
+# print("\n=====成绩分析=====")
+# print("姓名：",name)
+# print("成绩：",score)
+
 # if score>=90:
-#     print("A")
+#     print("等级：A")
 # elif score>=80:
-#     print("B")
+#     print("等级：B")
 # elif score>=70:
-#     print("C")
+#     print("等级：C")
 # elif score>=60:
-#     print("D")
+#     print("等级：D")
 # else:
-#     print("你不及格啦，要好好努力学习哦。")
-
-
-
-
-
-# 3.项目练习
-name=input("请输入姓名：")
-score=int(input("请输入成绩："))
-
-print("\n=====成绩分析=====")
-print("姓名：",name)
-print("成绩：",score)
-
-if score>=90:
-    print("等级：A")
-elif score>=80:
-    print("等级：B")
-elif score>=70:
-    print("等级：C")
-elif score>=60:
-    print("等级：D")
-else:
-    print("不及格，需要好好学习了。")
+#     print("不及格，需要好好学习了。")
