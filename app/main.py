@@ -120,3 +120,26 @@ print("Hello AI Study Assistant Pro")
 #     print("等级：D")
 # else:
 #     print("不及格，需要好好学习了。")
+
+# Day4
+# for+range
+# for i in range(5):
+#     print(i)
+# for i in range(2,5):
+#     print(i)
+# for i in range(0,10,2):
+#     print(i)
+
+
+
+# while循环
+# n=5
+# while n<=8:
+#     print(n)
+#     n+=1
+
+sum=0
+for i in range(1,101):
+    sum+=i
+    
+print(sum)
