@@ -138,8 +138,13 @@ print("Hello AI Study Assistant Pro")
 #     print(n)
 #     n+=1
 
-sum=0
-for i in range(1,101):
-    sum+=i
-    
-print(sum)
+  
+
+
+# DAY5
+# 1.学习函数
+def say_hello():
+    print("你好")
+
+say_hello()
+say_hello()
