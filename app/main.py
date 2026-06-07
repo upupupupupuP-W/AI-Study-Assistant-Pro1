@@ -141,10 +141,26 @@ print("Hello AI Study Assistant Pro")
   
 
 
-# DAY5
-# 1.学习函数
-def say_hello():
-    print("你好")
+# # DAY5
+# # 1.学习函数
+# def say_hello():
+#     print("你好")
 
-say_hello()
-say_hello()
+# say_hello()
+# say_hello()
+
+# DAY6
+# 列表
+# names=["Tom","Jack","Lucy"]
+
+# DAY7
+# # 字典 可以给数据取名字
+# student={"name":"Tom","score":95}
+
+student={}
+student["name"]=input("请输入你的姓名：")
+student["score"]=int(input("请输入你的分数："))
+print("学生信息")
+for key,value in student.items():
+    print(key,":",value)
+
