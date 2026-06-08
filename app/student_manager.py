@@ -1,9 +1,9 @@
-# student={}
-# student["name"]=input("请输入你的姓名：")
-# student["score"]=int(input("请输入你的分数："))
-# print("学生信息")
-# for key,value in student.items():
-#     print(key,":",value)
+student={}
+student["name"]=input("请输入你的姓名：")
+student["score"]=int(input("请输入你的分数："))
+print("学生信息")
+for key,value in student.items():
+    print(key,":",value)
 
 
 students=[]
