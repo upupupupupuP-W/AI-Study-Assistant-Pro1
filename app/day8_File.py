@@ -1,4 +1,4 @@
-f=open("test.txt","w") 写模式，如果文件不存在会创建
+# f=open("test.txt","w") 写模式，如果文件不存在会创建
 # f.write("Hllo,Python!\n")
 # f.close()
 # r 读， w 写（覆盖），a,写（追加）,r+ 读写
