@@ -1,13 +1,13 @@
-# while True:
-#     try:
-#         age=int(input("请输入你的年龄："))
-#         if age<0:
-#             raise ValueError("年龄不为负数")
-#         break
-#     except ValueError as e:
-#         print(f"输入错误：{e}")
+while True:
+    try:
+        age=int(input("请输入你的年龄："))
+        if age<0:
+            raise ValueError("年龄不为负数")
+        break
+    except ValueError as e:
+        print(f"输入错误：{e}")
     
-# print(f"年龄是：{age}")
+print(f"年龄是：{age}")
 
 
 try:
